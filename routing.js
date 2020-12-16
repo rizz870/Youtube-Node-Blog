@@ -4,7 +4,7 @@ const fs = require("fs");
 const Routing=(req,res) =>{
 
     if(req.url ==="/"){
-        page="./index.html";
+        page="./home.html";
       }
       else if(req.url==="/about"){
         page="./about.html";
@@ -13,8 +13,9 @@ const Routing=(req,res) =>{
         page="./register.html";
       }
       else{
-        page="./index.html";
+        page="./home.html";
       }
+      
       fs.readFile(page,(error,data)=>{
     
         if(!error){
