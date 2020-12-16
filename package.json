@@ -1,0 +1,28 @@
+{
+  "name": "nodeBasics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizz870/Youtube-Node-Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rizz870/Youtube-Node-Blog/issues"
+  },
+  "homepage": "https://github.com/rizz870/Youtube-Node-Blog#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
